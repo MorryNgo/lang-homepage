@@ -1,0 +1,42 @@
+
+.bar{
+    position: relative;
+    top: 5vh;
+    width:100vw;
+    height:calc(10vh - 40px);
+ display:flex;
+ gap:calc(50px);
+list-style: none;
+justify-content: center;
+font-size: 25px;
+color: #afa0d9;
+}
+.bar li:hover{
+font-size: 30px;
+}
+.bar li.homepage{
+     width:calc(100vw/9);
+    height:auto;
+    background:url("https://github.com/MorryNgo/lang-homepage/blob/main/1.png?raw=true");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.content1{
+   margin-top:5%;
+    width:100vw;
+    height:60vh;
+    background:url(https://github.com/MorryNgo/lang-homepage/blob/main/4.png?raw=true);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang{
+    width:45%;
+    height:45%;
+   background:url("https://github.com/MorryNgo/lang-homepage/blob/main/df6a9036-a5aa-401a-9ed2-77a7cd4d71cb.png?raw=true");
+   background-position:center;
+    background-size:120%;
+}
