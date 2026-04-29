@@ -51,9 +51,9 @@ font-size: 30px;
     background-repeat: no-repeat;
 }
 #lang1{
-      width:65%;
-    height:65%;
-        background-size:84rem;
+      width:80%;
+    height:80%;
+
 }
 .content2{
     width:100vw;
@@ -90,6 +90,7 @@ font-size: 30px;
     align-items: flex-start;
 }
 .containlang p{
+    text-align:justify;
         margin-left:5%;
         font-size: calc(2rem);
         font-weight:lighter;
@@ -100,7 +101,6 @@ font-size: 30px;
 }
 
 #lang2{
-      width:45%;
-    height:45%;
-        background-size:60rem;
+    width: 30%;
+    height: 70%;
 }
