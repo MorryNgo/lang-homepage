@@ -25,7 +25,7 @@ font-size: 30px;
      width:calc(10rem);
     height:100%;
     background:url("https://github.com/MorryNgo/lang-homepage/blob/main/1.png?raw=true");
-    background-size:calc(9em);
+    background-size:cover;
     background-repeat: no-repeat;
     background-position:center;
 }
@@ -47,7 +47,7 @@ font-size: 30px;
   
    background:url("https://github.com/MorryNgo/lang-homepage/blob/main/df6a9036-a5aa-401a-9ed2-77a7cd4d71cb.png?raw=true");
    background-position:center;
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 #lang1{
@@ -57,8 +57,8 @@ font-size: 30px;
 }
 .content2{
     width:100vw;
-    height:80vh;
-    background:url("https://media.canva.com/v2/image-resize/format:PNG/height:1052/quality:100/uri:ifs%3A%2F%2FM%2F911261e5-c652-436f-a33b-bc04973a40d8/watermark:F/width:1600?csig=AAAAAAAAAAAAAAAAAAAAAPVsHOax9NcQWCl2wb9FwvhyJbl_tydcAUqbL6t0m6hV&exp=1777404721&osig=AAAAAAAAAAAAAAAAAAAAAOJcBC_ZMs_kU7fVJ1sBVVQNOZBoeckM82swMO8GeXwf&signer=media-rpc&x-canva-quality=screen_2x");
+    height:110vh;
+    background:url("https://github.com/MorryNgo/lang-homepage/blob/main/width_1600.png?raw=true");
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
