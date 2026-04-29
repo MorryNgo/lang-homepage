@@ -105,3 +105,24 @@ font-size: 30px;
     width: 30%;
     height: 80%;
 }
+
+.content3{
+    width:100vw;
+    height:90vh;
+    background-color: #f4ddef;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+
+.content3 h2{
+display: flex;
+justify-content: center;
+    width:100%;
+    color: #8d4b9a;
+font-size: 2.5rem;
+border: 10px #8d4b9a;
+
+}
