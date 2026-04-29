@@ -83,7 +83,7 @@ font-size: 110%;
 .content2 h1 i{
     margin-left: 1rem;
         font-weight:400;
-    font-size: 80%;
+    font-size: 75%;
 }
 .containlang{
     min-width: 1370px;
@@ -96,7 +96,7 @@ font-size: 110%;
     text-align:justify ;
 }
 .containlang p{
-
+text-justify: inter-word;
     text-align:justify;
         margin-right:5%;
 /*         font-size: calc(1.8rem); */
@@ -131,4 +131,5 @@ justify-content: center;
     color: #8d4b9a;
 font-size: 4rem;
 border-bottom: 0.2rem solid #8d4b9a;
+
 }
