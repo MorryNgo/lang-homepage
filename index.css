@@ -227,7 +227,7 @@ justify-content: flex-start;/*  y */
 
 }
 
-h3{
+.content-section h3{
     font-style:italic;
     font-weight: 100;
     color: #a281b8;
