@@ -35,6 +35,7 @@ a{
     gap: calc(2vw); 
     flex: 1; 
     list-style: none;
+
 }   
 .menu-left { justify-content: flex-start; }
 .menu-right { justify-content: flex-end; }
@@ -49,8 +50,8 @@ a{
 
 /* --- LOGO HOMEPAGE  --- */
 .bar li.homepage {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     overflow: hidden; 
     border-radius: 50%; 
     margin: 0 40px; 
@@ -319,6 +320,7 @@ justify-content: flex-start;/*  y */
     font-size: 1.5rem;
     margin-bottom: -1rem;
     gap: 1rem;
+    flex-shrink: 0;
 }
 
 .contactbar h1{
@@ -336,6 +338,7 @@ text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
    background-size: 160%;
    background-repeat: no-repeat;
    background-position: center;
+   flex-shrink: 0;
 }
 
 h3{
@@ -343,8 +346,17 @@ h3{
     color:white
 }
 
+.contactbar{
+    flex-shrink: 0;
+}
+
+/*--------------------------  INTRO_PAGE -------------------------- */
 .intro-page .content1{
     font-size: 3.8rem;
+}
+
+.intro-page .content1 h1{
+    margin-left:0
 }
 .intro-page h2{
     margin-left: 28%;font-size: 60%;
@@ -353,8 +365,71 @@ h3{
 body{
     min-height: 100vh;
 }
-
-.contactbar{
-    flex-shrink: 0;
+.intro-page .content2{
+    width:100vw;
+    height: 20vh;
+    background: url("https://github.com/MorryNgo/lang-homepage/blob/main/8.png?raw=true");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.intro-page .content2 h1{
+    margin-top:0;
+    margin-left: 0;
+    font-size: clamp(4.9rem,5.2rem,5.4rem);
+    font-family: "Roboto";
+    letter-spacing: 1.5rem;
+    font-style: italic;
+}
+
+.intro-page .content3{
+    background-color: #f9f0f5;
+    width:100vw;
+    height: 80vh;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.intro-page .content3 .lang3{
+    flex-shrink: 0;
+width: 30%
+;
+height: 100%;
+background: url("https://github.com/MorryNgo/lang-homepage/blob/main/3b7b2ba7-bb86-402a-bccd-cede3066996f.png?raw=true");
+border-right: clamp(0.2rem,0.4rem,0.6rem) solid #9d75a8 ;
+background-repeat: no-repeat;
+background-size:180%;
+background-position: center;
+}
+
+.intro-page .content3 .textbox{
+    max-width: 1200px;
+    min-width: 1000px;
+    margin-top: 10%;
+    margin-left: 3%;
+    text-align:justify;
+    display: flex;
+    width:auto;
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+       
+}
+
+.intro-page .content3 .textbox h1{
+    margin-left:0;
+        font-size: clamp(2rem,2.4rem,2.6rem);
+        color: #78567e;
+    font-weight: 100;
+}
+.intro-page .content3 .textbox h1 b{
+    font-weight: 900;
+    
+}
